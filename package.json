@@ -1,0 +1,29 @@
+{
+  "name": "mkd_ai_bot",
+  "version": "1.0.0",
+  "description": "AI chat bot build with telegraf and OpenAi",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monukd01dev/mkd_ai_bot.git"
+  },
+  "keywords": [
+    "mkd_ai_bot"
+  ],
+  "author": "@monukd01dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monukd01dev/mkd_ai_bot/issues"
+  },
+  "homepage": "https://github.com/monukd01dev/mkd_ai_bot#readme",
+  "dependencies": {
+    "@huggingface/inference": "^3.3.5",
+    "dotenv": "^16.4.7",
+    "openai": "^4.85.2",
+    "telegraf": "^4.16.3"
+  },
+  "type": "module"
+}
