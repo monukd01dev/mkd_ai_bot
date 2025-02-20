@@ -1,7 +1,7 @@
 import 'dotenv/config.js'
 import {Telegraf} from 'telegraf'
 import askAi from './AiClient.js'
-import customMessage from './response.json' assert {type:"json"}
+import customMessage from './response.js'
 import {message} from 'telegraf/filters'
 
 const bot = new Telegraf(process.env.MKD_BOT_TOKEN)
